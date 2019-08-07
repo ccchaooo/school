@@ -10,9 +10,14 @@ public class GreetingMain {
     }
     static void readTextFile(String file){
         try (Stream<String> stream = Files.lines(Paths.get(file))) {
-            stream.forEach(System.out::println);
-        } catch (IOException e) {
-        }
+            System.out.println("----------begin----------");
+            String2Object string2Object = new String2Object();
+            Message greetingMessage = new GreetingMessageImpl();
+            stream.filter(s -> s.contains("2019/08/07")).map(string2Object::getEmployee).forEach(greetingMessage::send);
+            System.out.println("----------end----------");
 
+        } catch (IOException e) {
+            System.out.println("-------------");
+        }
     }
 }
