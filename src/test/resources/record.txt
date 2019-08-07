@@ -1,0 +1,13 @@
+last_name, first name, date_of_birth, email
+临时用户,test,2019/08/07 ,test@bootdo.com
+令狐冲,lhc,2019/08/07 ,lhc@bootdo.com
+刘亦菲,lyf,2019/08/07 ,lyf@bootdo.com
+刘德华,ldh,2019/08/07 ,ldh@bootdo.com
+吴亦凡,wyf,2019/08/07 ,wyf@bootdo.com
+张学友,zxy,2019/08/06 ,zxy@bootdo');
+李彦宏,lyh,2019/08/06 ,lyh@bootdo.com
+测试用户2,test2,2019/08/07 ,test2@bootdo.com
+王健林,wjl,2019/08/07 ,wjl@bootod.com
+超级管理员,admin,2019/08/07 ,admin@example.com
+郭德纲,gdg,2019/08/07 ,gdg@bootdo.com
+鹿晗,lh,2019/08/07 ,lh@bootdo.com
